@@ -1,8 +1,14 @@
 import React, { Fragment } from "react";
-import NavBar from "./NavBar";
+import Login from "../auth/Login";
+import Register from "../auth/Register";
 
 const Landing = () => {
-  return <NavBar />;
+  return (
+    <Fragment>
+      {/* <Login /> */}
+      <Register />
+    </Fragment>
+  );
 };
 
 export default Landing;
